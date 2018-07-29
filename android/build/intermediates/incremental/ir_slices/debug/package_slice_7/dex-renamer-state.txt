@@ -1,0 +1,4 @@
+#Thu Jul 19 19:08:08 IST 2018
+base.0=/mnt/4E12A4F212A4DFE7/Shared Dev/tensorflow-style-transfer-android-codelab-start/android/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex
