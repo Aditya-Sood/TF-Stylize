@@ -5,6 +5,10 @@ is based on code forked from the [TensorFlow](https://github.com/tensorflow/tens
 
 The model is already trained on a set of classical paintings, and the user is able to choose varying degrees of style from a multiple of those paintings to be transferred to the camera input stream.
 
+<p align="center">
+  <img src="https://github.com/Aditya-Sood/TF-Stylize/blob/master/Samples/Screenshot.png" width="350" title="Screenshot from app">
+</p>
+
 Additionally, there's the option to set the resolution of the output stream, and to take a picture of the same which is saved on the device. (The project thus requires permission to access the device Camera and Storage).
 
 This project uses the network proposed by [Dumoulin, et al. 2016](https://arxiv.org/abs/1610.07629) which avoids information duplication when using different networks for different styles, and instead uses a single network trained on multiple styles. As pointed out in the research paper, such a model is capable of "arbitrarily combining the styles learned from individual paintings", which is how the user is able to choose varying degrees of styles from the set of available paintings.
